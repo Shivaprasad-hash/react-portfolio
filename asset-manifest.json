@@ -1,17 +1,36 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.46ba21a3.css",
-    "main.js": "/react-portfolio/static/js/main.6c2f3e80.js",
+    "main.css": "/react-portfolio/static/css/main.74bac444.css",
+    "main.js": "/react-portfolio/static/js/main.c860b9f0.js",
     "static/js/453.311b3dbc.chunk.js": "/react-portfolio/static/js/453.311b3dbc.chunk.js",
+    "static/media/aiworkshop.jpg": "/react-portfolio/static/media/aiworkshop.1b77e7ce3cffc79d3ce2.jpg",
     "static/media/skillsplanet.jpg": "/react-portfolio/static/media/skillsplanet.4790db841e41f2864213.jpg",
+    "static/media/zomato.png": "/react-portfolio/static/media/zomato.9593e8faa21a6a89bb9f.png",
+    "static/media/responsive.jpg": "/react-portfolio/static/media/responsive.327433f931d879ef92ff.jpg",
+    "static/media/resumebuilder.jpg": "/react-portfolio/static/media/resumebuilder.581a9fba3702a00b338b.jpg",
+    "static/media/static.png": "/react-portfolio/static/media/static.d48ed6af4ab29544cfd3.png",
+    "static/media/nutrientspg.jpg": "/react-portfolio/static/media/nutrientspg.e37485ed54288fd69a20.jpg",
+    "static/media/database.png": "/react-portfolio/static/media/database.6a2c567e0eac25f86390.png",
+    "static/media/reactlogo.png": "/react-portfolio/static/media/reactlogo.d57c1411dda2a41560bd.png",
+    "static/media/profilepic.jpeg": "/react-portfolio/static/media/profilepic.590b3ba04866bf97d644.jpeg",
+    "static/media/tictactoegame.webp": "/react-portfolio/static/media/tictactoegame.96a8b1ea83bd26b3b88b.webp",
+    "static/media/favouritestores.png": "/react-portfolio/static/media/favouritestores.1340586642b167a74209.png",
+    "static/media/bombdiffuser.jpg": "/react-portfolio/static/media/bombdiffuser.0d2584fee1e1b1618f4b.jpg",
+    "static/media/mysqllogo.png": "/react-portfolio/static/media/mysqllogo.6e42b2a035b28f240021.png",
+    "static/media/pythonlogo.png": "/react-portfolio/static/media/pythonlogo.6a5cbc319ab3ddf8ef92.png",
+    "static/media/chatgptlogo.png": "/react-portfolio/static/media/chatgptlogo.1b6b302796bf0312afdb.png",
+    "static/media/htmllogo.png": "/react-portfolio/static/media/htmllogo.225e11572c680ca1273d.png",
+    "static/media/githublogo.png": "/react-portfolio/static/media/githublogo.159594a2d44d9175df20.png",
+    "static/media/csslogo.png": "/react-portfolio/static/media/csslogo.463e319bad8e0edf1ef7.png",
+    "static/media/jslogo.png": "/react-portfolio/static/media/jslogo.3dfb665e058d08c99f28.png",
     "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.46ba21a3.css.map": "/react-portfolio/static/css/main.46ba21a3.css.map",
-    "main.6c2f3e80.js.map": "/react-portfolio/static/js/main.6c2f3e80.js.map",
+    "main.74bac444.css.map": "/react-portfolio/static/css/main.74bac444.css.map",
+    "main.c860b9f0.js.map": "/react-portfolio/static/js/main.c860b9f0.js.map",
     "453.311b3dbc.chunk.js.map": "/react-portfolio/static/js/453.311b3dbc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46ba21a3.css",
-    "static/js/main.6c2f3e80.js"
+    "static/css/main.74bac444.css",
+    "static/js/main.c860b9f0.js"
   ]
 }
