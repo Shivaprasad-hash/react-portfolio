@@ -1,0 +1,194 @@
+/* skills section */
+.skills_container{
+    background-image: url("../assets/planets/skillsplanet.jpg");
+    background-size: cover;
+    background-position: center;
+    height:80vh;
+}
+.skill_heading{
+    -webkit-text-fill-color: transparent;
+    background:linear-gradient(90deg, #f7fbfc, #cee082);
+    -webkit-background-clip: text;
+}
+.skill_logo{
+    min-width:100px;
+    width:150px;
+}
+
+@keyframes scrollright{
+    to{
+        right: -214px;
+    }
+}
+
+.skills_section{
+    
+    /* gap:2rem; */
+    height:350px;
+    margin-inline: auto;
+    position: relative;
+    /* border: 3px solid #fff; */
+    width:90%;
+    margin-top:5rem;
+    overflow: hidden;
+     white-space: nowrap;
+     display: flex;
+     align-items: center;
+     mask-image: linear-gradient(to right, 
+     rgba(0,0,0,0),
+     rgba(0,0,0,1) 20%,
+     rgba(0,0,0,1) 80%,
+     rgba(0,0,0,0)
+     );
+}
+.skill_cont{
+    position:absolute;
+    /* left: -214px; */
+    right:100%;
+    text-align: center;
+    font-weight: bold;
+    color:#fff;
+    padding: 2rem 2rem 0 2rem;
+    background-color:rgba(45, 48, 54,0.5);
+    border-radius: 10%;
+    min-height:250px;
+    max-height: 350px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    animation-name: scrollright;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    width:200px;
+    
+}
+.skills_section:hover .skill_cont{
+    animation-play-state: paused;
+}
+.skill_cont:hover{
+    transform: scale(1.2);
+    transition: 2s;
+    border: 5px solid #3427f2;
+    
+}
+.skills_section:hover{
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+.skill_1{
+    animation-delay: calc(10s/9 * 1);
+}
+.skill_2{
+    animation-delay:calc(10s/9 * 2) ;
+}
+.skill_3{
+    animation-delay: calc(10s/9 * 3);
+}
+.skill_4{
+    animation-delay:calc(10s/9 * 4) ;
+}
+.skill_5{
+    animation-delay: calc(10s/9 * 5);
+}
+.skill_6{
+    animation-delay: calc(10s/9 * 6);
+}
+.skill_7{
+    animation-delay: calc(10s/9 * 7);
+}
+.skill_8{
+    animation-delay: calc(10s/9 * 8);
+}
+.skill_9{
+    animation-delay: calc(10s/9 * 9);
+}
+
+.skill_cont p{
+    /* margin-top:auto;
+    font-size:25px; */
+}
+
+@media (max-width:895px){
+    .skill_logo{
+        min-width:80px;
+        width:100px;
+    }
+    @keyframes scrolltop{
+        from{
+            top: 100%;
+        }
+        to{
+            top: -250px;  /* Height should match your skill box size */
+        }
+    }
+    .skills_section{
+        
+        /* gap:2rem; */
+        height:200px;
+        margin-inline: auto;
+        position: relative;
+        /* border: 3px solid #fff; */
+        width:90%;
+        margin-top:5rem;
+        overflow: hidden;
+        white-space: nowrap;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        mask-image: linear-gradient(to right, 
+        rgba(0,0,0,0),
+        rgba(0,0,0,1) 20%,
+        rgba(0,0,0,1) 80%,
+        rgba(0,0,0,0)
+        );
+    }
+    .skill_cont{
+        position: absolute;
+        top:100%;
+        text-align: center;
+        font-weight: bold;
+        color:#fff;
+        padding: 1rem 1rem 0 1rem;
+        background-color:rgba(45, 48, 54,0.5);
+        border-radius: 10%;
+        min-height:150px;
+        max-height: 350px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        animation-name: scrolltop;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        width:200px;
+    }
+    .skill_1{
+        animation-delay: calc(10s/9 * 1);
+    }
+    .skill_2{
+        animation-delay:calc(10s/9 * 2) ;
+    }
+    .skill_3{
+        animation-delay: calc(10s/9 * 3);
+    }
+    .skill_4{
+        animation-delay:calc(10s/9 * 4) ;
+    }
+    .skill_5{
+        animation-delay: calc(10s/9 * 5);
+    }
+    .skill_6{
+        animation-delay: calc(10s/9 * 6);
+    }
+    .skill_7{
+        animation-delay: calc(10s/9 * 7);
+    }
+    .skill_8{
+        animation-delay: calc(10s/9 * 8);
+    }
+    .skill_9{
+        animation-delay: calc(10s/9 * 9);
+    }
+
+}
