@@ -2,7 +2,8 @@ import "./Contact.css";
 
 function Contact(){
     return(
-        <div class="contact_bg_cont scroll_ani" id="contactSection">
+        <div class="contact_bg_cont" id="contactSection">
+            <div className="scroll_ani">
             <div class="cont_heading_cont  pt-3 pb-4">
                 <i class="fa-solid fa-headset cont_icon mr-3"></i>
                 <h2 class="contact_heading d-inline">Get in touch</h2>
@@ -18,6 +19,7 @@ function Contact(){
                     <button type="submit" class="submit_Btn btn-primary">Submit</button>
                 </div>
             </form>
+            </div>
         </div>
     )
 }

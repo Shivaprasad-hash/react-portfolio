@@ -1,4 +1,5 @@
 import "./About.css";
+import Profile from "../assets/profilepic.jpeg";
 
 function about() {
     return(
@@ -6,7 +7,7 @@ function about() {
                 <h1 className="content_headings about_heading">About</h1>
                 <div className="about_section">
                     <div className="about_images scroll_ani1">
-                        <img src="/images/profilepic.jpeg" alt="profileimg" />
+                        <img src= {Profile} alt="profileimg" />
                         <div className="icons_cont">
                             <a href="https://www.linkedin.com/in/shiva-prasad-596503325/" target="_blank" className="linkedin"><i className="fa-brands fa-linkedin"></i></a>
                             <a href="https://github.com/Shivaprasad-hash" target="_blank" className="gitHub"><i className="fa-brands fa-github"></i></a>
@@ -33,18 +34,6 @@ function about() {
                     </div>
                 </div>
 
-                <div className="box">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
             </div>
     )
 }

@@ -1,5 +1,7 @@
 /**Projects sec**/
-
+.projects_cont{
+    background-color: #000000;
+}
 .projects_heading_cont{
     color:#ffffff;
     font-weight: bold;
